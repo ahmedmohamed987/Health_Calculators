@@ -1,0 +1,101 @@
+body{
+    background-color: #e4eaf7;
+    line-height: normal;
+}
+.right-conatiner-notification{
+    margin-top: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    min-height: calc(100vh - 90px);
+}
+.notifications-span-div{
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.notifications-span-div2{
+    width: fit-content;
+}
+.notifications-span{
+    font-size: 35px;
+    font-weight: bold;
+}
+.notifications-span-line{
+    border-bottom: 5px solid #0356f8;
+    width: 50%;
+}
+.body-container{
+    width: 1200px;
+    margin: auto;
+    min-height: 300px;
+}
+.notification-item-card{
+    padding: 10px;
+    background-color: white;
+    border-left: 5px solid #0356f8;
+    background-image: url("../img/appointment-background.png");
+}
+.notification-item-span{
+    margin-left: 20px;
+}
+.accordion-button{
+    padding: 10px;
+    background-color: white;
+    border-left: 5px solid #0356f8;
+    background-image: url("../img/appointment-background.png");
+    padding: 20px;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    border-left: 5px solid #0356f8;
+}
+.book-appointment-a{
+    text-decoration: none;
+}
+.no-notifications-div{
+    text-align: center;
+    margin-top: 100px;
+}
+.no-notifications-span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.doctor-notification{
+    background-color: white;
+    padding: 20px;
+    border-left: 5px solid #0356f8;
+    background-image: url("../img/appointment-background.png");
+}
+
+@media screen and (max-width: 1250px){
+    .notifications-span-div{
+        width: 960px;
+    }
+    .body-container{
+        width: 960px;
+    }
+}
+@media screen and (max-width: 980px){
+    .notifications-span-div{
+        width: 100%;
+        padding: 20px;
+    }
+    .body-container{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .notifications-span-div{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .notifications-span{
+        font-size: 30px;
+    }
+}
+
+
+

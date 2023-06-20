@@ -1,0 +1,141 @@
+.gutter{
+    --bs-gutter-x: 0;
+}
+body{
+    background-color: #e4eaf7;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.end{
+    text-align: end;
+}
+.center{
+    text-align: center;
+}
+.message-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px gray;
+    border-radius: 3px;
+    min-width: 350px;
+}
+.message-header{
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+}
+.message{
+    display: block;
+    margin-bottom: 10px;
+}
+/* ---------------------------------------------------------- */
+/* .header{
+    width: 100%;
+    height: 50px;
+    background-color: #0356f8;
+    padding: 0 150px;
+    position: fixed;
+    z-index: 3;
+}
+.header-row{
+    height: 100%;
+}
+.header-col{
+    height: fit-content;
+    margin: auto 0;
+}
+.header-logo{
+    width: 200px;
+}
+.header-dropdown{
+    display: inline-block;
+}
+.header-dropdown-btn{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .3s;
+}
+.header-dropdown-btn:hover{
+    background-color: #044ee3;
+    color: white;
+}
+.search-btn{
+    background-color: white;
+    border: none;
+    color: #0356f8;
+}
+.input-group{
+    width: 300px;
+    margin: auto;
+}
+.margin{
+    width: 100%;
+    height: 50px;
+}
+.add-article-background{
+    background-color: #808080a3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+}
+.add-article-container{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.add-article-top-row{
+    border-bottom: 1px solid black;
+}
+.add-article-header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0356f8;
+}
+.article-area{
+    max-height: 80px;
+}
+.article-submit-btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+@media screen and (max-width: 1100px){
+    .header-search{
+        width: 250px;
+    }
+    .header{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 800px){
+    .search-col{
+        display: none;
+    }
+} */

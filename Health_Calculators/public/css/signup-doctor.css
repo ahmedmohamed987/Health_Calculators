@@ -1,0 +1,112 @@
+
+body{
+    background-color: #e4eaf7;
+}
+.line{
+    width: 300px;
+    height: 0;
+    border-top: 1px solid rgb(236, 236, 236);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signup-container{
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 7px rgb(166, 166, 166);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.login-container{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 7px rgb(166, 166, 166);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+}
+.logo{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.header-span{
+    font-size: 30px;
+    color: #0356f8;
+    font-weight: bold;
+}
+
+#floatingInput, #floatingPassword{
+    width: 300px;
+    height: 40px;
+    border-left: 2px solid #0356f8;
+    background-color: rgb(246, 246, 246);
+    font-size: 12px;
+
+}
+.form-floating{
+    width: fit-content;
+    margin: auto;
+    outline: none;
+    text-align: left;
+}
+label{
+    font-size: 13px;
+    color: #0356f8;
+}
+.form-floating label{
+    font-size: 13px;
+    margin-top: -6px;
+    color: #0356f8;
+}
+.signup-link{
+    text-decoration: none;
+    color: #0356f8;
+}
+.form-select{
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.area-label{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#select-area{
+    margin-bottom: 10px;
+    color: #0356f8;
+    font-size: 13px;
+    background-color: rgb(246, 246, 246);
+    border-left: 2px solid #0356f8;
+}
+.doctor-info-span{
+    color: #0356f8;
+    font-weight: 500;
+    font-size: 20px;
+}
+.guide-card-image{
+    width: 300px;
+    margin: auto;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #e4eaf7;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0356f8;
+    border-radius: 5px;
+    border: 2px solid #e4eaf7;
+}
+

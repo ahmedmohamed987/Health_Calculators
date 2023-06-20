@@ -1,0 +1,89 @@
+
+body{
+    background-color: #e4eaf7;
+}
+
+.body-container{
+    background-color: white;
+    width: 900px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 20px
+}
+
+table{
+    width: 100%;
+}
+.left-col{
+    text-align: end;
+    width: 30%;
+    padding: 10px;
+}
+.right-col{
+    padding: 10px;
+}
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+.name{
+    font-size: 20px;
+}
+#file, #removeFilee{
+    display: none;
+}
+#upload-btn, #remove-btn{
+    color: rgb(93, 93, 255);
+    font-weight: 500;
+    display: block;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+#remove-btn{
+    text-decoration: none;
+    color: rgb(255, 98, 98);
+    font-size: 12px;
+}
+.left-label{
+    font-weight: 500;
+}
+.right-input{
+    width: 70%;
+}
+.doctor-header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0356f8;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #e4eaf7;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0356f8;
+    border-radius: 5px;
+    border: 2px solid #e4eaf7;
+}
+
+@media screen and (max-width: 900px){
+    .body-container{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 5px;
+    }
+    .right-input{
+        width: 90%;
+    }
+}

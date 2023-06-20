@@ -1,0 +1,557 @@
+body{
+    background-color: #e4eaf7;
+    line-height: normal;
+}
+.top-div{
+    width: 100%;
+    background-image: url("../img/dr-background.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.top-text-container{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+}
+.top-div-header1{
+    font-size: 55px;
+    font-weight: 600;
+    display: block;
+    padding: 0;
+    width: fit-content;
+}
+.top-div-header2{
+    font-size: 20px;
+    margin-top: 30px;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+.top-div-left-btn{
+    margin-top: 20px;
+}
+.calculators-div{
+    height: 200px;
+    width: 1200px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60vh;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+    background-image: url("../img/appointment-background.png");
+}
+.top-margin{
+    margin-bottom: 120px;
+}
+.services-div, .calculators-div, .questions-div, .doctors-div{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+}
+.services-header, .calculators-header{
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    width: fit-content;
+    border-bottom: 5px solid #0356f8;
+}
+.services-row{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.services-col, .articles-card, .articles-col, .doctors-col{
+    margin: 20px;
+}
+.services-card, .doctors-card{
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px gray;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    border: none;
+    transition: .3s;
+}
+.services-card{
+    height: 250px;
+}
+.doctors-card{
+    height: 400px;
+}
+.services-card:hover{
+    border: 3px solid #0356f8;
+}
+.line{
+    border-bottom: 1px solid gray;
+    width: 100px;
+    margin: auto;
+}
+.card-logo{
+    font-size: 80px;
+    display: block;
+    width: fit-content;
+    color: #0356f8;
+    position: absolute;
+    opacity: 10%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.card-header{
+    display: block;
+    width: fit-content;
+    font-size: 21px;
+    font-weight: 500;
+    color: #0356f8;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card-span{
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gray;
+}
+.articles-header{
+    font-size: 25px;
+    font-weight: 500;
+    color: #0356f8;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.articles-span{
+    font-size: 20px;
+    color: black;
+}
+.articles-img-xl, .articles-img{
+    height: 300px;
+    max-width: 500px;
+}
+.articles-img{
+    display: none;
+}
+.more-articles-btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+.questions-card{
+    position: relative;
+    height: 400px;
+    background-color: #0356f8;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    background-image: url("../img/questions-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.questions-opacity{
+    background-color: #0356f8;
+    opacity: 50%;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.questions-header{
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+.questions-form{
+    position: relative;
+}
+.question-textarea{
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    opacity: 90%;
+    resize: none;
+    border-left: 1px solid black;
+}
+.doctor-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+.doctor-name{
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #0356f8;
+    margin-top: 5px;
+}
+.doctor-speciality{
+    font-weight: 500;
+    display: block;
+    margin-top: 5px;
+}
+.footer-margin{
+    margin-bottom: 200px;
+}
+footer{
+    height: 230px;
+    width: 100%;
+    background-image: url("../img/footer-background.jpg");
+    position: relative;
+    text-align: center;
+}
+.footer-opacity{
+    background-color: #0356f8;
+    opacity: 50%;
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    top: 0;
+}
+.appointment-div{
+    height: 200px;
+    width: 1200px;
+    background-color: white;
+    position: relative;
+    top: -100px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+    background-image: url("../img/appointment-background.png");
+}
+
+.appointment-span{
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #0356f8;
+    font-weight: 500;
+}
+.appointment-btn{
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+}
+.footer-div{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: -100px;
+    padding: 20px;
+    position: relative;
+}
+.footer-links-container{
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-link, .footer-right-link{
+    text-decoration: none;
+    padding: 0 30px;
+    color: white;
+    transition: .3s;
+}
+.footer-link:hover, .footer-right-link:hover{
+    color: rgb(212, 212, 212) !important;
+}
+.footer-link{
+    border-right: 1px solid white;
+}
+.footer-link:hover, .footer-right-link:hover{
+    color: white;
+}
+.copyrights-span{
+    color: white;
+    font-size: 13px;
+    width: fit-content;
+}
+
+.no-articles{
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+}
+
+/* new */
+.article-card{
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    margin: auto;
+    margin: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.articles-card-img{
+    height: 200px;
+}
+.card-article-header{
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-details{
+    border-top: 1px solid rgb(196, 196, 196);
+    padding: 10px 15px;
+}
+.view-article-btn{
+    color: #0356f8;
+    text-decoration: none;
+    font-weight: bold;
+}
+.article-date{
+    color: gray;
+}
+.no-articles-p {
+    font-size: 25px;
+    width: fit-content;
+    /* font-weight: bold; */
+    margin: auto;
+    /* margin-top: 100px; */
+}
+
+/*  */
+.links {
+    text-decoration: none;
+}
+/*  */
+/* new */
+.services-btn {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%);
+}
+
+/* old */
+.card-header {
+    top: 15%;
+}
+
+.card-span {
+    top: 45%;
+}
+@media screen and (max-width: 1300px){
+    .services-div, .calculators-div, .questions-div, .doctors-div{
+        margin-top: 20px;
+        max-width: 1000px;
+    }
+    .appointment-div{
+        max-width: 1000px;
+    }
+    .services-card, .doctors-card{
+        width: 290px;
+    }
+    .services-card{
+        height: 290px;
+    }
+    .doctors-card{
+        height: 340px;
+    }
+    .doctor-image{
+        width: 240px;
+        height: 240px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .top-div{
+        height: 75vh;
+    }
+    .calculators-div{
+        top: 55vh;
+    }
+    .top-text-container{
+        position: absolute;
+        left: 35%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 550px;
+
+    }
+    .top-div-header1{
+        font-size: 50px;
+        font-weight: 600;
+        width: 100%;
+
+    }
+    .top-div-header2{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .services-div, .calculators-div, .questions-div, .doctors-div{
+        max-width: 900px;
+    }
+    .appointment-div{
+        max-width: 900px;
+    }
+    .services-header, .calculators-header{
+        left: 15%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .services-card, .doctors-card{
+        width: 260px;
+    }
+    .services-card{
+        height: 260px;
+    }
+    .doctors-card{
+        height: 310px;
+    }
+    .card-logo{
+        font-size: 60px;
+    }
+    .card-header{
+        font-size: 18px;
+    }
+    .card-span{
+        font-size: 16px;
+    }
+    .doctor-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 980px){
+    .top-div{
+        height: 70vh;
+    }
+    .calculators-div{
+        top: 53vh;
+        max-width: none;
+        width: 100%;
+        border-radius: 0;
+
+    }
+    .top-text-container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 400px;
+        text-align: center;
+
+    }
+    .top-div-header1{
+        font-size: 40px;
+        font-weight: 600;
+        width: 100%;
+
+    }
+    .top-div-header2{
+        font-size: 17px;
+        margin-top: 40px;
+    }
+
+    .services-div, .calculators-div, .doctors-div{
+        max-width: 420px;
+    }
+    .appointment-div{
+        max-width: none;
+        width: 100%;
+        border-radius: 0;
+    }
+    .appointment-span{
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .appointment-btn{
+        width: 200px;
+    }
+    .footer-link, .footer-right-link{
+        padding: 0 10px;
+    }
+    .questions-div{
+        width: 80%;
+    }
+    .services-header, .calculators-header{
+        margin: auto;
+        left: 0;
+    }
+    .services-row{
+        display: block;
+    }
+    .services-col, .doctors-col, .articles-col{
+        margin: 20px 0;
+    }
+    .services-card, .doctors-card, .article-card{
+        width: 350px;
+    }
+    .services-card{
+        height: 250px;
+    }
+    .doctors-card{
+        height: 400px;
+    }
+    .card-logo{
+        font-size: 80px;
+    }
+    .card-header{
+        font-size: 21px;
+    }
+    .card-span{
+        font-size: 16px;
+    }
+    .articles-img-xl{
+        display: none;
+    }
+
+    .articles-header{
+        width: fit-content;
+        font-size: 20px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .articles-span{
+        width: fit-content;
+        font-size: 16px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .articles-img{
+        display: block;
+        margin: auto;
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .question-textarea{
+        width: 100%;
+    }
+    .doctor-image{
+        width: 300px;
+        height: 300px;
+    }
+
+}

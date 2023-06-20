@@ -1,0 +1,172 @@
+body{
+    background-color: #e4eaf7;
+    line-height: normal;
+}
+.body{
+    width: 1200px;
+    height: calc(100vh - 60px);
+    margin: auto;
+    position: relative;
+}
+.left-container{
+    flex: 0 0 auto;
+    height: 100%;
+    width: 350px;
+    margin-right: 20px;
+}
+.right-container{
+    height: 100%;
+    width: 400px;
+}
+.best-doctors-container{
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url("../img/appointment-background.png");
+}
+.best-doctors-header-div{
+    background-color: #0356f8;
+    padding: 10px;
+    text-align: center;
+}
+.best-doctors-header-span{
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+.best-doctors-table{
+    width: 100%;
+    margin: 20px;
+}
+/* .best-doctors-td{
+    padding: 0 10px;
+} */
+.best-doctors-right {
+    width: 260px;
+    text-align: center;
+}
+
+.left-doctor-name {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.left-doctor-speciality {
+    font-size: 14px;
+}
+
+.left-book-btn {
+    font-size: 13px;
+    padding: 3px 5px;
+    margin-top: 5px;
+}
+
+.left-doctor-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.left-line {
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.left-container-span {
+    margin: 10px;
+}
+
+.left-btn {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right-container{
+    min-height: calc(100vh - 60px);
+    width: 400px;
+    padding: 20px;
+}
+.right-conatiner-white{
+    background-color: white;
+    margin-top: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    min-height: calc(100vh - 90px);
+}
+.articles-header{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 3px;
+    border-bottom: 5px solid #0356f8;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    border-left: 5px solid #0356f8;
+}
+@media screen and (max-width: 1250px) {
+    .body {
+        width: 1100px;
+    }
+
+    .left-container {
+        width: 250px;
+    }
+
+    .best-doctors-table {
+        margin: 20px 0;
+    }
+    .left-doctor-name {
+        font-size: 12px;
+    }
+
+    .left-doctor-speciality {
+        font-size: 13px;
+    }
+    .left-doctor-img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .body {
+        width: 930px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .body {
+        width: 100%;
+    }
+
+    .left-container {
+        display: none;
+    }
+
+    .articles-header-container {
+        text-align: center;
+    }
+
+    .articles-header {
+        margin: auto;
+    }
+
+    .article-card-2 {
+        /* width: 400px; */
+        margin: auto;
+    }
+
+    .article-card-2 {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .right-article-img {
+        height: 100%;
+    }
+}

@@ -1,0 +1,115 @@
+body {
+    background-color: #e4eaf7;
+    line-height: normal;
+}
+
+.body {
+    min-height: calc(100vh);
+    background-color: #272727ba;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+}
+
+.prescription-body {
+    background-color: white;
+    width: 600px;
+    min-height: calc(100vh - 50px);
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.prescription-close {
+    position: absolute;
+}
+
+.prescription-logo {
+    width: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.prescription-header {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.prescription-date {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: serif;
+}
+
+.prescription-line {
+    border-bottom: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prescription-table {
+    border-left: 5px solid #0356f8;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.prescription-th {
+    width: 40%;
+    font-family: serif;
+}
+
+.prescription-td {
+    font-family: serif;
+}
+
+.pres-btn {
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+.footer {
+    position: sticky;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-line {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.footer-span {
+    font-family: serif;
+    font-size: 13px;
+    position: relative;
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+    .prescription-body {
+        width: 100%;
+    }
+}

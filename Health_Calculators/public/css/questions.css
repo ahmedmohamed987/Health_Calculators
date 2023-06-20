@@ -1,0 +1,215 @@
+/* .gutter{
+    --bs-gutter-x: 0;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.end{
+    text-align: end;
+}
+.center{
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 50px;
+
+    padding: 0 150px;
+    position: fixed;
+    z-index: 3;
+}
+.header-row{
+    height: 100%;
+}
+.header-col{
+    height: fit-content;
+    margin: auto 0;
+}
+.header-logo{
+    width: 200px;
+}
+.header-dropdown{
+    display: inline-block;
+}
+.header-dropdown-btn{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    transition: .3s;
+}
+.header-dropdown-btn:hover{
+    background-color: #044ee3;
+    color: white;
+}
+.search-btn{
+    background-color: #0356f8;
+    border: none;
+    color: white;
+}
+.header-search{
+    width: 250px;
+    margin: auto;
+
+}
+.margin{
+    width: 100%;
+    height: 50px;
+}
+.add-article-background{
+    background-color: #808080a3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: none;
+}
+.add-article-container{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.add-article-top-row{
+    border-bottom: 1px solid black;
+}
+.add-article-header{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0356f8;
+}
+.article-area{
+    max-height: 80px;
+}
+.article-submit-btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1100px){
+    .header{
+        padding: 0 20px;
+    }
+    .header-logo{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 800px){
+    .search-col{
+        display: none;
+    }
+} */
+/* ----------------------------------------------- */
+
+body{
+    background-color: #e4eaf7;
+}
+.body-container{
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.questions-header{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.add-question-btn{
+    border: none;
+    outline: none;
+    background-color: #0356f8;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.question-area{
+    max-height: 100px;
+}
+.question-card{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.left-col{
+    width: 10%;
+    text-align: end;
+    padding: 10px;
+}
+.patient-image-col{
+    text-align: center;
+}
+.patient-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+.patient-name{
+    font-weight: 500;
+}
+.delete-question{
+    margin-right: 20px;
+    text-decoration: none;
+    color: gray;
+}
+.delete-question:hover{
+    color: red;
+}
+
+.replies-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: blue;
+    font-size: 13px;
+    font-weight: 500;
+}
+.answer-card{
+    padding: 5px;
+    border: none;
+}
+.reply-btn{
+    margin-top: 20px;
+    width: 90%;
+
+}
+.doctor-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+.doctor-name{
+    font-size: 14px;
+    font-weight: 500;
+}
+.doctor-answer{
+    font-size: 14px;
+}
+@media screen and (max-width: 800px){
+    .body-container{
+        width: 100%;
+        margin: 0;
+    }
+}

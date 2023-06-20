@@ -1,0 +1,66 @@
+
+body{
+    background-color: #e4eaf7;
+}
+
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 7px rgb(166, 166, 166);
+    padding-top: 30px;
+}
+.logo{
+    width: 150px;
+    margin-bottom: 80px;
+}
+.header-span{
+    font-size: 30px;
+    color: #0356f8;
+    font-weight: bold;
+}
+#floatingInput{
+    margin-top: 40px;
+}
+#floatingInput, #floatingPassword{
+    width: 300px;
+    height: 40px;
+    border-left: 2px solid #0356f8;
+    background-color: rgb(246, 246, 246);
+    text-align: left;
+    font-size: 13px;
+
+}
+.form-floating{
+    width: fit-content;
+    margin: auto;
+    outline: none;
+    text-align: left;
+}
+label{
+    font-size: 13px;
+    margin-top: -6px;
+    color: #0356f8;
+}
+.signup-link{
+    text-decoration: none;
+    color: #0356f8;
+}
+.no-account-span{
+
+}
+.form-select{
+    width: 300px;
+    margin: auto;
+    height: 40px;
+    border-left: 2px solid #0356f8;
+    color: #0356f8;
+    background-color: rgb(246, 246, 246);
+    font-size: 12px;
+    margin-bottom: 20px;
+}

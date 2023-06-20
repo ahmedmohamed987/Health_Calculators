@@ -1,0 +1,42 @@
+body{
+    background-color: #e4eaf7;
+    line-height: normal;
+}
+.article-edit-container{
+    background-color: white;
+    width: 700px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.edit-header{
+    color: #0356f8;
+    font-size: 30px;
+    position: relative;
+}
+.article-input{
+    height: 100px;
+}
+@media screen and (max-width: 980px){
+    .article-edit-container{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 650px){
+    body{
+        background-color: white;
+    }
+    .article-edit-container{
+        width: 100%;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: translate(0,0);
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
